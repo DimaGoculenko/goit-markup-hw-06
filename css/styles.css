@@ -641,3 +641,74 @@ li .portfolio-link {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
 }
+
+/* ----form modal----- */
+
+form {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.modal-text {
+    width: 360px;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 16px;
+    color: var(--color-body-text)
+}
+
+.label-text {
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--color-company);
+    letter-spacing: 0.01em;
+}
+
+.madal-name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.madal-phone {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.madal-email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.madal-comment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.madal-checkbox{
+    margin-right: 8px;
+}
+
+.madal-meta {
+    margin-bottom:24px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #757575;
+}
+
+.madal-submit {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-left: auto;
+    width: 170px;
+    height: 51px;
+    background: var(--primary-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
