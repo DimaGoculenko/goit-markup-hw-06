@@ -625,7 +625,6 @@ li .portfolio-link {
     transform: translate(-50%, -50%) scale(1.2);
 }
 
-
 .icon-modal {
     position: absolute;
     content: "";
@@ -643,10 +642,28 @@ li .portfolio-link {
 }
 
 /* ----form modal----- */
-
 form {
     padding-right: 24px;
     padding-left: 24px;
+}
+
+form label {
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--color-company);
+    letter-spacing: 0.01em;
+}
+
+form input {
+    width: 360px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.form-icon{
+    position: absolute;
 }
 
 .modal-text {
@@ -657,40 +674,18 @@ form {
     color: var(--color-body-text)
 }
 
-.label-text {
-    margin-bottom: 4px;
-    font-size: 12px;
-    line-height: 14px;
-    color: var(--color-company);
-    letter-spacing: 0.01em;
-}
-
-.madal-name {
+.name-phone-email-comment {
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
 }
 
-.madal-phone {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 8px;
-}
-
-.madal-email {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 8px;
-}
-
-.madal-comment {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 16px;
-}
-
-.madal-checkbox{
-    margin-right: 8px;
+textarea {
+    width: 360px;
+    height: 120px;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 }
 
 .madal-meta {
@@ -699,6 +694,15 @@ form {
     font-size: 12px;
     line-height: 16px;
     color: #757575;
+}
+
+.madal-checkbox {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    margin-top: 16px;
+    border: 1.25px solid #2E2F42;
+    border-radius: 2px;
 }
 
 .madal-submit {
