@@ -429,13 +429,11 @@ button:focus {
 
 /* Social */
 .social {
-    /* display: block; */
     width: 208px;
     height: 80px;
     font-weight: 600;
     margin-top: 100px;
     margin-left: 120px;
-    margin-right: 692px;
 }
 
 .social-text {
@@ -464,6 +462,57 @@ button:focus {
 .social-link:focus{
     background-color: var(--color-green-footer);
 }
+
+/* < !-- Subscribe --> */
+.subscribe {
+    width: 456px;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.subscribe-text{
+    width: 75px;
+    height: 24px;
+    color: var(--primary-fon-color);
+}
+
+.subscribe-form {
+    display: flex;
+    padding-top: 16px;
+    background-color: var(--color-body-text);
+}
+
+.subscribe-email {
+    width: 264px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding-left: 16px;
+    background-color: var(--color-body-text);
+}
+
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    margin-left: 24px;
+    width: 168px;
+    height: 40px;
+    background: var(--primary-text-color);
+    border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-icon {
+    margin-left: 16px;
+    fill: var(--primary-fon-color);
+}
+
+.subscribe-icon:hover {
+    fill: var(--primary-text-color);
+}
+
 
 /*--------main для portfolio.html----------*/
 /* Filters - кнопки button  */
@@ -642,7 +691,7 @@ li .portfolio-link {
 }
 
 /* ----form modal----- */
-form {
+.form-modal {
     padding-right: 24px;
     padding-left: 24px;
 }
@@ -664,6 +713,7 @@ form input {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    padding-left: 35px;
 }
 
 input:hover {
@@ -699,6 +749,9 @@ textarea {
     resize: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 textarea:hover {
