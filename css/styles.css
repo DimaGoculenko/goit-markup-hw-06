@@ -786,9 +786,12 @@ textarea:hover {
     clip: rect(0 0 0 0);
 }
 
+.checkbox-label {
+    display: flex;
+    margin-top: 16px;
+}
+
 .checkbox-label::before {
-    display: inline-block;
-    vertical-align: center;
     content: "";
     width: 16px;
     height: 16px;
@@ -796,7 +799,6 @@ textarea:hover {
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
-    margin-top: 16px;
 }
 
 .checkbox-input:checked + .checkbox-label::before {
