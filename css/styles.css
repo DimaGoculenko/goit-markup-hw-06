@@ -710,6 +710,9 @@ form label {
 .name-phone-email-comment:hover {
     fill: var(--primary-text-color);
 }
+input {
+    outline: none;
+}
 
 form input {
     width: 360px;
@@ -785,6 +788,7 @@ textarea:hover {
 
 .checkbox-label::before {
     display: inline-block;
+    vertical-align: center;
     content: "";
     width: 16px;
     height: 16px;
